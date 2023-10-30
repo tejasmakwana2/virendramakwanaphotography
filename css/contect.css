@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Poppins:wght@500&family=Roboto:wght@300;500&family=Satisfy&family=Tinos:wght@400;700&display=swap');
+
+/* font-family: 'Bodoni Moda', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Tinos', serif; */
+
+
+body{
+    background: url(../img/background.jpg);
+}
+
+
+.container{
+    max-width: 1180px !important; 
+    margin-inline: auto !important;
+    overflow: hidden !important;
+    font-family: 'Brandon Text', sans-serif;
+
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+                                            /*  header line */
+
+.header-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.1rem;
+}
+
+
+                                                   /* navbar */
+
+nav{
+    /* background-color: aqua; */
+    padding: 15px;
+    /* max-width: 1180px; */
+    margin-inline: auto;
+}
+
+nav .container{
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+}
+
+.nav-links{
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo img{
+    cursor: pointer;
+    display: inline-block;
+    width: 120px;
+    padding: 0 20px;
+    
+}
+
+ul{
+    display: flex;
+    flex-basis: 100%;
+}
+
+li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(29, 24, 43, 0.699);
+    font-weight: 300;
+    transition: .3s all ease-in-out;
+}
+
+li a:hover{
+    color: rgb(22, 8, 59);
+}
+
+/* contect name section */
+
+
+hr{
+    border-width: 0 !important;
+    height: 1px !important;
+    max-width:1180px !important;
+
+}
+
+.gradient{
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgb(77, 77, 77, 0.875), rgba(0,0,0,0)) !important;
+}
+
+.nav-sec-title{
+    font-family: 'Bodoni Moda', serif;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex;
+    margin-left: 1.1em;
+}
+
+
+/* Contact-info Section */
+
+.contact-form{
+    margin-top: 15px;
+}
+
+.contact-info{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+
+
+
+/* Address Section */
+
+.address-heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+}
+
+.icon{
+    margin-right: 30px;
+}
+
+.submit button{
+    padding: 5px 10px;
+    background: transparent;
+}
+
+
+
+/* section started */
+
+/* contect us section*/
+
+
+
+/* map section */
+
+.map{
+    margin: 50px 0;
+}
+

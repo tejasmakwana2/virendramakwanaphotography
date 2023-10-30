@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider-container-in">
+            <div class="swiper card_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/3.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/4.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/5.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/6.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/7.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/8.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="../swiper/images/9.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+        var swiper = new Swiper(".card_slider", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    </script>
+
+</body>
+</html>
